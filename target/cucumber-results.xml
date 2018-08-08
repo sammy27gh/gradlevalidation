@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="8" tests="8" time="0">
+<testcase classname="BookacontractonestepSandbox" name="Send valid Book_a_contract1step in the Sandbox" time="0">
+<skipped><![CDATA[Given I have valid Book_a_contract1step Data for the Sandbox................undefined
+When I want to test specific request for Book_a_contract1step in the Sandbox..undefined
+Then I receive expected Book_a_contract1step response form Sandbox..........undefined
+]]></skipped>
+</testcase>
+<testcase classname="BookacontractonestepSandbox" name="Send Invalid FX_quote_type data for Book_a_contract1step in Sandbox to check error response code &lt;1001-017&gt;" time="0">
+<skipped><![CDATA[Given I have Invalid Book_a_contract1step Data for the sandbox..............undefined
+When I send Invalid FX_quote_type Data for Book_a_contract1step.............undefined
+Then I receive an error response code "1001-017" for FX_quote_type is not valid for Book_a_contract1step.undefined
+]]></skipped>
+</testcase>
+<testcase classname="BookacontractonestepSandbox" name="As a user i want check Field Buy/Sell Indicator is ENUM for Book_a_contract1step Sandbox" time="0">
+<skipped><![CDATA[Given I have Invalid Book_a_contract1step Sandbox for the field Buy/Sell Indicator.undefined
+When I send Invalid Book_a_contract1step Sandbox Data for the ENUM field Buy/Sell Indicator.undefined
+Then I will get the response as Buy/Sell Indicator is ENUM for Book_a_contract1step.undefined
+]]></skipped>
+</testcase>
+<testcase classname="BookacontractonestepSandbox" name="Send Invalid Base_Currency_Code data for Book_a_contract1step in Sandbox to check error response code &lt;1001-007&gt;" time="0">
+<skipped><![CDATA[Given I have Invalid Book_a_contract1step Data for the sandbox..............undefined
+When I send Invalid Base_Currency_Code Data for Book_a_contract1step........undefined
+Then I receive an error response code "1001-007" for Base_Currency_Code is not valid for Book_a_contract1step.undefined
+]]></skipped>
+</testcase>
+<testcase classname="BookacontractonestepSandbox" name="Send Invalid Base_Currency_Amount data for Book_a_contract1step in Sandbox to check error response code &lt;1001-020&gt;" time="0">
+<skipped><![CDATA[Given I have Invalid Book_a_contract1step Data for the sandbox..............undefined
+When I send Invalid Base_Currency_Amount Data for Book_a_contract1step......undefined
+Then I receive an error response code "1001-020" for Base_Currency_Amount is not valid for Book_a_contract1step.undefined
+]]></skipped>
+</testcase>
+<testcase classname="BookacontractonestepSandbox" name="Send Invalid Contra_Currency_Code data for Book_a_contract1step in Sandbox to check error response code &lt;1001-007&gt;" time="0">
+<skipped><![CDATA[Given I have Invalid Book_a_contract1step Data for the sandbox..............undefined
+When I send Invalid Contra_Currency_Code Data for Book_a_contract1step......undefined
+Then I receive an error response code "1001-007" for Contra_Currency_Code is not valid for Book_a_contract1step.undefined
+]]></skipped>
+</testcase>
+<testcase classname="BookacontractonestepSandbox" name="Send Invalid Value_Date_Type data for Book_a_contract1step in Sandbox to check error response code &lt;1001-006&gt;" time="0">
+<skipped><![CDATA[Given I have Invalid Book_a_contract1step Data for the sandbox..............undefined
+When I send Invalid Value_Date_Type Data for Book_a_contract1step...........undefined
+Then I receive an error response code "1001-006" for Value_Date_Type is not valid for Book_a_contract1step.undefined
+]]></skipped>
+</testcase>
+<testcase classname="BookacontractonestepSandbox" name="Send Invalid partner_reference_id data for Book_a_contract1step in Sandbox to check error response code &lt;1001-033&gt;" time="0">
+<skipped><![CDATA[Given I have Invalid Book_a_contract1step Data for the sandbox..............undefined
+When I send Missing partner_reference_id field for Book_a_contract1step.....undefined
+Then I receive an error response code "1001-033" for partner_reference_id field is missing from Book_a_contract1step.undefined
+]]></skipped>
+</testcase>
+</testsuite>
